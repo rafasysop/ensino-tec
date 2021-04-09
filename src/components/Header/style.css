@@ -1,3 +1,61 @@
 header {
-  height: 88px;
+  align-items: center;
+  background: linear-gradient(140deg, #5f41d9, #41b5d9);
+  box-shadow: 0 0 9px #ccc;
+  color: white;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  min-height: 88px;
+  padding-left: 8%;
+}
+
+header nav {
+  align-items: center;
+  display: flex;
+}
+
+.menu {
+  margin-right: 10%;
+}
+
+header ul {
+  display: flex;
+  list-style: none;
+}
+
+header ul li {
+  margin: 0% 5% 0 0;
+}
+
+.profile {
+  align-items: center;
+  border-left: 1px solid rgba(255, 255, 255, 0.25);
+  display: flex;
+  font-weight: 600;
+  justify-content: start;
+  margin-right: 5%;
+  padding-left: 3%;
+  width: 33%;
+}
+
+.profile button {
+  background: none;
+  border: white 1px solid;
+  border-radius: 50px;
+  color: white;
+  font-weight: 600;
+  height: 40px;
+  outline: none;
+  width: 200px;
+}
+
+.profile ul {
+  align-items: center;
+  display: flex;
+  list-style: none;
+}
+
+.profile ul li {
+  margin: 10px;
 }
