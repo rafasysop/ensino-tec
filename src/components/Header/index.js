@@ -1,11 +1,16 @@
 import React from 'react';
 import './style.css';
 import logo from '../../assets/logo.svg';
+import UserProfile from '../../assets/UserProfile.svg';
 
 function Header() {
   return (
-    <header>
+    <header className="header-container">
       <img className="logo" src={logo} alt="" />
+      <span className="elipse-p-1"></span>
+      <span className="elipse-p-2"></span>
+      <span className="elipse-p-3"></span>
+      <div className="hamburguer">☰</div>
       <nav>
         <ul className="menu">
           <li>Soluções</li>
@@ -17,6 +22,7 @@ function Header() {
       </nav>
       <section className="profile">
         <ul>
+          <img className="user-profile" src={UserProfile} alt="user" />
           <li>Entrar</li>
           <li>
             <button>Começar agora</button>

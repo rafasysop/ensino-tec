@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;700;900&display=swap');
 
 html {
-  font-family: 'Inter' , sans-serif;
+  font-family: Inter , sans-serif;
   font-size: 62.5%;
 }
 
@@ -9,10 +9,13 @@ html {
   box-sizing: border-box;
   font-size: 1.6rem;
   margin: 0;
-  outline: 0;
   padding: 0;
 }
 
 .App {
   text-align: center;
+}
+
+button {
+  cursor: pointer;
 }
